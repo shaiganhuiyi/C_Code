@@ -44,6 +44,7 @@
 //}
 //2.编写一个函数实现n^k，使用递归实现
 
+<<<<<<< HEAD
 //int Pow(int n, int k)
 //{
 //	if (k == 1)
@@ -57,6 +58,9 @@
 //	return n*Pow(n, k - 1);
 //}
 //int Pow2(int n, int k)
+=======
+//int factorial(int n, int k)
+>>>>>>> 299a7c998580bf48bd0ea45148491f267c5f3819
 //{
 //	if (k==0)
 //	{
@@ -69,7 +73,11 @@
 //	}
 //	else
 //	{
+<<<<<<< HEAD
 //		return n*Pow2(n, k - 1);
+=======
+//		return n*factorial(n, k - 1);
+>>>>>>> 299a7c998580bf48bd0ea45148491f267c5f3819
 //	}
 //	
 //		
@@ -77,7 +85,11 @@
 //}
 //int main()
 //{
+<<<<<<< HEAD
 //	printf("%d", Pow(2, 5));
+=======
+//	printf("%d", factorial(2, 5));
+>>>>>>> 299a7c998580bf48bd0ea45148491f267c5f3819
 //	system("pause");
 //}
 
@@ -86,6 +98,7 @@
 
 //int DigitSum(int n)
 //{
+<<<<<<< HEAD
 //	if (n < 10){
 //		return n;
 //
@@ -96,6 +109,8 @@
 
 //int DigitSum(int n)
 //{
+=======
+>>>>>>> 299a7c998580bf48bd0ea45148491f267c5f3819
 //	int sum =0;
 //	if (n >0)
 //	{
@@ -111,6 +126,7 @@
 //{
 //	printf("%d", DigitSum(1224));
 //	system("pause");
+<<<<<<< HEAD
 //}
 //4. 编写一个函数 reverse_string(char * string)（递归实现）
 //实现：将参数字符串中的字符反向排列。
@@ -218,4 +234,6 @@
 //{
 //  print(1234);
 //  system("pause");
+=======
+>>>>>>> 299a7c998580bf48bd0ea45148491f267c5f3819
 //}
